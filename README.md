@@ -7,4 +7,5 @@ Dependencias:
 
 
 Conceito Principal da HomePage:
+(Cores ainda não definidas)
 ![Screenshot](/docs/HomePage.png)
