@@ -5,7 +5,8 @@ import router from './router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebook,faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
-library.add(faFacebook,faSquareInstagram)
+import { faArrowsUpToLine,faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
+library.add(faFacebook,faSquareInstagram,faArrowsUpToLine,faUniversalAccess)
 
 import './assets/main.css'
 import './tailwind.css'
