@@ -1,11 +1,10 @@
-Jodag Landing Page
+A JODAG é uma marca fictícia de moda feminina.
 
-Dependencias:
+## Essa página é um projeto Front-End.
 
--Vue
-
--Tailwindcss
-
--FontAwesome
+Dependências:
+*Vue
+*Tailwindcss
+*FontAwesome
 
 
