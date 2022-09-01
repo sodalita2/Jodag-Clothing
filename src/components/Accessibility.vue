@@ -31,20 +31,22 @@
                 var AppDiv = document.getElementById("app")
                 console.log(this.Brilho)
                 this.Brilho += 5
-                AppDiv.style.filter = `grayscale(${(this.Brilho).toString()}%)`
+                let convert = (100 - (this.Brilho + 100))
+                AppDiv.style.filter = `grayscale(${(convert).toString()}%)`
             },
             DiminuiBrilho(){
                 var AppDiv = document.getElementById("app")
                 console.log(this.Brilho)
                 this.Brilho -= 5
-                AppDiv.style.filter = `grayscale(${(this.Brilho).toString()}%)`
+                let convert = (100 - (this.Brilho + 100))
+                AppDiv.style.filter = `grayscale(${(convert).toString()}%)`
             },
         }
     }
 </script>
 
 <template>
-    <div class="h-[260px] w-[240px] fixed border-4 bottom-0 right-0 flex flex-col items-end justify-end">
+    <div class="h-[260px] w-[240px] fixed bottom-0 right-0 flex flex-col items-end justify-end">
         <!-- Footer Dropdown Menu -->
         <div ref="AccessDropdown" class="h-full w-full bg-black bg-opacity-[89%] text-white flex flex-col items-center mb-auto hidden">
             <span>Tamanho da Fonte</span>
