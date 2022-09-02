@@ -7,4 +7,5 @@ Dependências:
 * Tailwindcss
 * FontAwesome
 
-
+## Apresentacao
+![](./docs/GIF1.gif)
