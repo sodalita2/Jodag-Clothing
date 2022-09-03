@@ -7,7 +7,7 @@
     <!-- Top Nav Bar-->
     <div class="h-[30px] w-[90%] flex flex-row items-center mt-20 border-4">
       <div class="m-1 w-[55px]"><RouterLink to="/" class="hover:font-[600] hover:underline">Home</RouterLink></div>
-      <span class="m-1">></span>
+      <span class="m-1 text-[18px] mt-[6px]">></span>
       <div class="m-1 w-[55px] cursor-pointer"><div class="hover:font-[600] hover:underline">{{ (this.$route.path).split('/').join('')}}</div></div>
     </div>
     <!-- Main Container -->
@@ -26,7 +26,7 @@
           </div>
           <div class="h-[auto] w-[170px] text-center p-2 font-[700] text-[18px] font-['Lato'.sans-serif] text-white bg-black ml-[2vw] mt-12">PÚBLICO ALVO</div>
           <div class="h-[90px] w-full font-sans ml-[2vw] text-[17px] text-black mt-4">Senso de moda e vontade de se reinventar.<br>
-            <span class="text-[16px] font-bold">Mulheres de 20 a 45 </span>anos que gostam de expressar sua individualidade através da moda.
+            <span class="text-[16px] font-bold">Mulheres </span> que gostam de expressar sua individualidade através da moda.
           </div>
         </div>
       </div>
