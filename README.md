@@ -7,5 +7,5 @@ Dependências:
 * Tailwindcss
 * FontAwesome
 
-## Apresentacao
-![](./docs/GIF1.gif)
+## Heroku Deploy
+https://jodag.herokuapp.com/
